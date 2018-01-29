@@ -26,5 +26,10 @@ namespace WebAppTest.Controllers
 
             return View();
         }
+
+        public ActionResult LeftMenu()
+        {
+            return View();
+        }
     }
 }

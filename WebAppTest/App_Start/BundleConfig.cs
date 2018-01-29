@@ -23,9 +23,9 @@ namespace WebAppTest
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new StyleBundle("~/.bin/node_modules/bootswatch/dist/darkly/css").Include(
-                      "~/.bin/node_modules/bootswatch/dist/darkly/bootstrap.css",
-                      "~/.bin/node_modules/bootswatch/dist/darkly/site.css"));
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/Content/site.css"));
         }
     }
 }
